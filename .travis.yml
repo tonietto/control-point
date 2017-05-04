@@ -5,7 +5,7 @@ cache:
   directories:
     - node_modules
 script:
+  - yarn test
   - yarn flow
   - yarn lint
-  - yarn test
   - yarn run build
