@@ -7,6 +7,7 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
     "babel-eslint": "^7.2.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
@@ -16,7 +17,7 @@
     "eslint-plugin-react": "^6.10.3",
     "flow-bin": "^0.44.2",
     "react-scripts": "0.9.5",
-    "@kadira/storybook": "^2.21.0"
+    "storyshots": "^3.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
