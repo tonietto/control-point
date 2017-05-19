@@ -1,12 +1,14 @@
 import React from 'react';
+
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 
 
-const App = () => (
+const MaterialUI = () => (
   <MuiThemeProvider>
-    <RaisedButton label="Default" />
+    <RaisedButton label="Default"/>
   </MuiThemeProvider>
 );
 
-export default App;
+export default MaterialUI;
+
