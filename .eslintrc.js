@@ -1,7 +1,6 @@
 module.exports = {
-  "parser": "babel-eslint",
   "extends": [
-    "react-app",
+    "airbnb",
     "plugin:flowtype/recommended",
   ],
   "installedESLint": true,
