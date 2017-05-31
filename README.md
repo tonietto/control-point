@@ -1,6 +1,8 @@
 # Control Point #
 [![Greenkeeper badge](https://badges.greenkeeper.io/storybooks/storybook.svg)](https://greenkeeper.io/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tonietto/control-point.svg)](https://greenkeeper.io/)
+
 🏅 App for managing a Orienteering Club membership, news, events and additional information.
 
 Made with ❤ for Curitiba's Orienteering Club (COC).
