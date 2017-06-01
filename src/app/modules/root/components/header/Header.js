@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 import { Grid, Container, Menu } from 'semantic-ui-react';
 import { withRouter, Link } from 'react-router';
 import LocaleSelector from './localeSelector/LocaleSelector';
-import { UserControl, LoginActions } from '../../../login';
 import version from '../../../../../../config.version';
 
 const { Column } = Grid;
@@ -45,12 +44,12 @@ const Header = ({ user, router, clearUser }) => {
             user
             ? (
               <Item position="right">
-                <UserControl name={user.name} email={user.email} logout={logout} />
+                UserControl
               </Item>
             )
             : (
               <Item position="right">
-                <LoginActions />
+                LoginActions
               </Item>
             )
           }

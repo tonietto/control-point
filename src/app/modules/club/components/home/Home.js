@@ -4,8 +4,6 @@ import { Link } from 'react-router';
 import { Header, Button } from 'semantic-ui-react';
 import { FormattedMessage } from 'react-intl';
 
-import { RootContainer } from '../shared/login';
-
 
 const mapStateToProps = ({ intl }) => {
   return {
@@ -23,7 +21,7 @@ const style = {
 };
 
 const Home = props => (
-  <RootContainer {...props}>
+  <div>
     <div style={style.inverted}>
       <Header inverted as="h1" style={style.header}>
         <FormattedMessage
@@ -41,7 +39,7 @@ const Home = props => (
         />
       </Button>
     </div>
-  </RootContainer>
+  </div>
 );
 
 export default connect(mapStateToProps)(Home);

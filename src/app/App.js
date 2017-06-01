@@ -2,7 +2,7 @@ import React from 'react';
 import { createStore, applyMiddleware, compose } from 'redux';
 import { ApolloProvider } from 'react-apollo';
 import { Router, browserHistory } from 'react-router';
-import { syncHistoryWithStore } from 'react-router-redux';
+// import { syncHistoryWithStore } from 'react-router-redux';
 import { IntlProvider } from 'react-intl-redux';
 
 import { addLocaleData } from 'react-intl';
@@ -31,14 +31,14 @@ const store = createStore(
   )
 );
 
-const history = syncHistoryWithStore(browserHistory, store);
+// const history = syncHistoryWithStore(browserHistory, store);
 
 addLocaleData([...en, ...pt]);
 
 const App = () => (
   <ApolloProvider store={store} client={client}>
     <IntlProvider>
-      <Router history={history} routes={rootRouter} />
+      <Router history={browserHistory} routes={rootRouter} />
     </IntlProvider>
   </ApolloProvider>
 );

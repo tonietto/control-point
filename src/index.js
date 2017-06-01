@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './app/App';
 
 import './assets/bundled-styles.css';
-import '../node_modules/futuremaster/dist/semantic.min.css';
+import '../node_modules/semantic-ui-cs/semantic.min.css';
 
 
 ReactDOM.render(

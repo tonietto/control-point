@@ -6,9 +6,6 @@ import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
 import Home from '../../modules/club/components/home/Home';
 
-import background from '../../../assets/images/background.png';
-
-
 const { Row, Column } = Grid;
 
 const propTypes = {
@@ -17,7 +14,7 @@ const propTypes = {
 
 const style = {
   grid: {
-    backgroundImage: `url(${background})`,
+    background: 'red',
   },
 };
 
