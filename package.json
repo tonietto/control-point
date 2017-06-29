@@ -32,7 +32,7 @@
     "react-apollo": "^1.2.0",
     "react-dom": "^15.3.2",
     "react-intl": "^2.2.3",
-    "react-intl-redux": "^0.5.0",
+    "react-intl-redux": "^0.6.0",
     "react-lazyload": "^2.1.6",
     "react-motion": "^0.5.0",
     "react-motion-ui-pack": "^0.10.2",
